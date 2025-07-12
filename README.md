@@ -36,38 +36,3 @@ SkillSwap/
 └── README.md
 
 
----
-
-## Getting Started
-
-1. Clone repo:
-git clone https://github.com/Sibiya07/SkillSwap.git
-cd SkillSwap
-
-2.Create .env in server/ folder with:
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-
-3.Install dependencies:
-cd server
-npm install
-cd ../client
-npm install
-
-4.Run the app:
-cd ../server
-npm start
-
-Open new terminal:
-
-cd client
-npm start
-
-Backend runs at http://localhost:5000
-Frontend runs at http://localhost:3000
-
-Author
-Sibiya Jasmine — MERN Developer
-GitHub: https://github.com/Sibiya07
-
-Happy Skill Swapping! 🚀
